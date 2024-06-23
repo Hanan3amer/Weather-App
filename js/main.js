@@ -29,7 +29,7 @@ function display(res) {
 
     var box = '';
     box += `
-    <div class="col-md-4">
+    <div class="col-md-4 my-3">
             <div class="card text-body rounded-4 color-bg">
               <div class="card-header">
                 <div class="d-flex ">
@@ -61,7 +61,7 @@ function display(res) {
               </div>
             </div>
           </div>
-        <div class="col-md-4">
+        <div class="col-md-4 my-3">
             <div class="card text-body rounded-4 color-bg">
               <div class="card-header">
                 <div class="d-flex">
