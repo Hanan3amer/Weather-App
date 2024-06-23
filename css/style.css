@@ -1,13 +1,13 @@
 .bg-color {
-    background-color: #e2e3ea77;
+    background-color: #e2e3ea8f;
 }
 
-.findBtn {
+.findBtn,.subscribebtn {
     right: 0px;
 }
 
 .color {
-    color: #868B94;
+    color: #434445;
 }
 
 body {
@@ -15,4 +15,22 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.color-bg{
+    background-color: #e2e3ea45;
+}
+.navbar-brand, li,.copy-right{
+    font-family: "Playwrite NG Modern", cursive;
+    font-weight: 700;
+}
+.colo{
+    color: rgb(202, 194, 183);
+    transition: 1s;
+}
+.nav-link:hover{
+    color: black;
+    
+}
+input:focus{
+    outline: rgb(184, 181, 175);
 }

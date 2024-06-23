@@ -30,39 +30,39 @@ function display(res) {
     var box = '';
     box += `
     <div class="col-md-4">
-            <div class="card text-body rounded-4">
+            <div class="card text-body rounded-4 color-bg">
               <div class="card-header">
                 <div class="d-flex ">
                   <h6 class="flex-grow-1">${day1name}</h6>
                   <h6 >${day1month} ${day1date}</h6>
                 </div>
               </div>
-              <div class="card-body p-4">
+              <div class="card-body p-4 ">
                 <h6 class="flex-grow-1">${res.location.name}</h6>
                 <div class="d-flex flex-column text-center mt-5 mb-4">
-                  <h6 class="display-4 mb-0 font-weight-bold py-2"> ${res.forecast.forecastday[0].day.maxtemp_c + "C"} </h6>
+                  <h6 class="display-4 mb-0 font-weight-bold py-2"> ${res.current.temp_c + "C"} </h6>
                   
-                  <span class="small color">${res.forecast.forecastday[0].day.condition.text}</span>
+                  <span class="small color">${res.current.condition.text}</span>
                 </div>
   
                 <div class="d-flex align-items-center">
-                  <div class="flex-grow-1" style="font-size: 1rem;">
-                    <div><i class="fas fa-wind fa-fw color"></i> <span class="ms-1"> ${res.forecast.forecastday[0].day.maxwind_kph} km/h</span>
+                  <div class="flex-grow-1" >
+                    <div><i class="fas fa-wind fa-fw color"></i> <span class="ms-1"> ${res.current.wind_kph} km/h</span>
                     </div>
-                    <div><i class="fas fa-tint fa-fw color"></i> <span class="ms-1"> ${res.forecast.forecastday[0].day.avghumidity}%
+                    <div><i class="fas fa-tint fa-fw color"></i> <span class="ms-1"> ${res.current.humidity}%
                       </span></div>
                     <div><i class="fas fa-compass fa-fw color"></i> <span class="ms-1"> ${res.current.wind_dir}
                       </span></div>
                   </div>
                   <div>
-                    <img src="${res.forecast.forecastday[0].day.condition.icon}">
+                    <img src="${res.current.condition.icon}">
                   </div>
                 </div>
               </div>
             </div>
           </div>
         <div class="col-md-4">
-            <div class="card text-body rounded-4">
+            <div class="card text-body rounded-4 color-bg">
               <div class="card-header">
                 <div class="d-flex">
                 <h6 class="flex-grow-1">${day2name}</h6>
@@ -84,7 +84,7 @@ function display(res) {
             </div>
           </div>
         <div class="col-md-4">
-            <div class="card text-body rounded-4">
+            <div class="card text-body rounded-4 color-bg">
               <div class="card-header">
                 <div class="d-flex">
                 <h6 class="flex-grow-1">${day3name}</h6>
