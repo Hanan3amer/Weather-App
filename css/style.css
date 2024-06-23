@@ -1,0 +1,18 @@
+.bg-color {
+    background-color: #e2e3ea77;
+}
+
+.findBtn {
+    right: 0px;
+}
+
+.color {
+    color: #868B94;
+}
+
+body {
+    background-image: url(../assest/bg2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
