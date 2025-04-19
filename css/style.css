@@ -1,36 +1,39 @@
 .bg-color {
-    background-color: #e2e3ea8f;
+  background-color: #e2e3ea8f;
 }
 
-.findBtn,.subscribebtn {
-    right: 0px;
+.findBtn,
+.subscribebtn {
+  right: 0px;
 }
 
 .color {
-    color: #434445;
+  color: #434445;
 }
 
 body {
-    background-image: url(../assest/bg2.avif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../assest/bg2.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100lvh;
 }
-.color-bg{
-    background-color: #e2e3ea45;
+.color-bg {
+  background-color: #e2e3ea45;
 }
-.navbar-brand, li,.copy-right{
-    font-family: "Playwrite NG Modern", cursive;
-    font-weight: 700;
+.navbar-brand,
+li,
+.copy-right {
+  font-family: "Playwrite NG Modern", cursive;
+  font-weight: 700;
 }
-.colo{
-    color: rgb(202, 194, 183);
-    transition: 1s;
+.colo {
+  color: rgb(202, 194, 183);
+  transition: 1s;
 }
-.nav-link:hover{
-    color: black;
-    
+.nav-link:hover {
+  color: black;
 }
-input:focus{
-    outline: rgb(184, 181, 175);
+input:focus {
+  outline: rgb(184, 181, 175);
 }
